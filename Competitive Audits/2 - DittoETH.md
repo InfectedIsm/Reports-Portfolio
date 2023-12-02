@@ -1,8 +1,7 @@
 # DittoETH - Findings Report (September 2023)
 
 # Table of contents
-- ## [Contest Summary](#contest-summary)
-- ## [Results Summary](#results-summary)
+
 - ## High Risk Findings
     - ### [H-01. Owner of a bad ShortRecord can front-run flagShort calls AND liquidateSecondary and prevent liquidation](#H-01)
 - ## Medium Risk Findings
