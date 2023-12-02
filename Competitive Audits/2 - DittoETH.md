@@ -170,7 +170,7 @@ Manual review
 SR with a bad CR shouldn't be transferable, the user should first make its position healthy before being allowed to transfer it.
 I suggest to add a check in `LibShortRecord::transferShortRecord` to ensure `CR > primaryLiquidationCR
 
-```shell
+```diff
 diff --git a/contracts/libraries/LibShortRecord.sol b/contracts/libraries/LibShortRecord.sol
 index 7c5ecc3..8fad274 100644
 --- a/contracts/libraries/LibShortRecord.sol
@@ -377,7 +377,7 @@ Manual review
 
 replace the first mulU88 by a mul:
 
-```shell
+```diff
 diff --git a/contracts/facets/BridgeRouterFacet.sol b/contracts/facets/BridgeRouterFacet.sol
 index c9ff4e5..3680ae6 100644
 --- a/contracts/facets/BridgeRouterFacet.sol
