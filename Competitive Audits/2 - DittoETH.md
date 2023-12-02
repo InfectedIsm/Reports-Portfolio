@@ -1,4 +1,4 @@
-# DittoETH - Findings Report
+# DittoETH - Findings Report (September 2023)
 
 # Table of contents
 - ## [Contest Summary](#contest-summary)

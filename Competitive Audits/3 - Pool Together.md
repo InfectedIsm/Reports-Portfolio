@@ -1,4 +1,4 @@
-# Pool Together
+# Pool Together (June 2023)
 
 # **Medium Issues**
 
