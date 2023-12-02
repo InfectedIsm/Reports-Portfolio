@@ -26,7 +26,7 @@
    - Low: 1
 
 
-# High Risk Findings
+# High Risk Findings (Selected For Report)
 
 ## <a id='H-01'></a>H-01. Owner of a bad ShortRecord can front-run flagShort calls AND liquidateSecondary and prevent liquidation            
 
