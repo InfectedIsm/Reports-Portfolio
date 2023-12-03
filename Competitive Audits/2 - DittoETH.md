@@ -10,7 +10,7 @@
     - ### [L-01. BridgeRouterFacet::withdraw() and unstake() can revert when amount * TVL > uint88 because of PRBMathHelper::mulU88](#L-01)
 
 
-# <a id='contest-summary'></a>Contest Summary
+# <a name='contest-summary'></a>Contest Summary
 
 ### Sponsor: Ditto
 
@@ -18,7 +18,7 @@
 
 [See more contest details here](https://www.codehawks.com/contests/clm871gl00001mp081mzjdlwc)
 
-# <a id='results-summary'></a>Results Summary
+# <a name='results-summary'></a>Results Summary
 
 ### Number of findings:
    - High: 1
@@ -28,7 +28,7 @@
 
 # High Risk Findings (Selected For Report)
 
-## <a id='H-01'></a>H-01. Owner of a bad ShortRecord can front-run flagShort calls AND liquidateSecondary and prevent liquidation            
+## <a name='H-01'></a>H-01. Owner of a bad ShortRecord can front-run flagShort calls AND liquidateSecondary and prevent liquidation            
 
 ### Relevant GitHub Links
 	
@@ -207,7 +207,7 @@ index 7c5ecc3..8fad274 100644
 		
 # Medium Risk Findings
 
-## <a id='M-01'></a>M-01. unstaking rETH could not work if delay is set again            
+## <a name='M-01'></a>M-01. unstaking rETH could not work if delay is set again            
 
 ### Relevant GitHub Links
 	
@@ -299,7 +299,7 @@ Check that the timelock period will not make revert the withdrawal and, if so, u
 
 # Low Risk Findings
 
-## <a id='L-01'></a>L-01. BridgeRouterFacet::withdraw() and unstake() can revert when amount * TVL > uint88 because of PRBMathHelper::mulU88            
+## <a name='L-01'></a>L-01. BridgeRouterFacet::withdraw() and unstake() can revert when amount * TVL > uint88 because of PRBMathHelper::mulU88            
 
 ### Relevant GitHub Links
 	
