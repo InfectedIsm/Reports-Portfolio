@@ -4,8 +4,10 @@
 
 # About Infect3d
 Previously a Test & Measurement Support Engineer in telecommunications.
+
 I gently switched to web3 security through audit contest platforms such as [Code4rena](https://code4rena.com/), [Sherlock](https://www.sherlock.xyz/) or [CodeHawks](https://www.codehawks.com/)
-Moved full-time web3 in October-2023
+Moved full-time web3 in October-2023.
+
 You'll find below my different results and reports.
 
 # Competitive Audits
