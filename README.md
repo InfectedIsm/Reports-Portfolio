@@ -1,5 +1,6 @@
 # Audit Portfolio - Infect3d
 - [About Infect3d](#about-Infect3d)
+- [Contact me](#contact-me)
 - [Competitive Audits](#competitive-audits)
 
 # About Infect3d
@@ -9,6 +10,11 @@ I gently switched to web3 security through audit contest platforms such as [Code
 Moved full-time web3 in October-2023.
 
 You'll find below my different results and reports.
+
+# Contact me
+- [Twitter](https://twitter.com/InfectedCrypto)
+- [Discord](https://discordapp.com/users/209246832675651585)
+
 
 # Competitive Audits
 | Contest				| Date		| Description 																| Platform  | Findings			| Mention						| Report														|
