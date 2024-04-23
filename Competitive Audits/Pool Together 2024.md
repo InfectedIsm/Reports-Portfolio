@@ -114,14 +114,9 @@ Hopefully, the solution is pretty easy to set-up: just add a `nonReentrant` modi
 This way, the hook will not be allowed to reenter to function.
 
 
-[M-02] Nothing prevent from withdrawing the yield buffer
-
-
-
-
 __________________________________________________________
 
-[L-01] Inconsistencies with IERC4626
+# [L-01] Inconsistencies with IERC4626
 
 from https://eips.ethereum.org/EIPS/eip-4626:
 
@@ -139,7 +134,7 @@ File: pt-v5-vault\src\PrizeVault.sol
 ```
 
 
-[L-02] `PrizeVaultFactory::deployVault` uses an immutable variable to configure the yieldBuffer
+# [L-02] `PrizeVaultFactory::deployVault` uses an immutable variable to configure the yieldBuffer
 
 As stated by the comment, the yield buffer should be configurable depending on the decimals, and the dollar value of the asset of the vault. This is not a big issue here as a `PrizVault` can also be deployed not using the factory if it needs a different yield buffer, but this means it will not be added to the `allVaults` array to be easily found by 3rd parties working with Pool Together.
 
@@ -182,7 +177,7 @@ File: pt-v5-vault\src\PrizeVaultFactory.sol
 122:
 ```
 
-[L-03] If the Yield Vault is Vulnerable to an Inflation Attack, funds can stay in Prize Vault on first depositor rather than being deposited in the Yield Vault
+# [L-03] If the Yield Vault is Vulnerable to an Inflation Attack, funds can stay in Prize Vault on first depositor rather than being deposited in the Yield Vault
 
 The PrizeVault should check that minted shares are non zero, in case of a vulnerable Yield Vault.
 Otherwise, a unprotected Yield Vault would allow an attacker to inflate the share price . E.g: Solmate do not implement the decimal offset by default.
