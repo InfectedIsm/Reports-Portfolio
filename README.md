@@ -4,17 +4,19 @@
 - [Competitive Audits](#competitive-audits)
 
 # About Infect3d
-Previously a Test & Measurement Support Engineer in telecommunications.
+Previously working as test & measurement engineer in telecommunications.
+Now a smart contract security researcher, my goal is to master both broad coverage and deep exploration of the codebase.
+With a specific focus on Solidity, I aim to cover all types of protocols.
+However, you will see from my CV that I have an affinity for CDP, DEXes, Vaults and AMMs protocols as they highly rely on maths.
 
-I gently switched to web3 security through audit contest platforms such as [Code4rena](https://code4rena.com/), [Sherlock](https://www.sherlock.xyz/) or [CodeHawks](https://www.codehawks.com/)
-Moved full-time web3 in October-2023.
+I participate in contests on [Code4rena](https://code4rena.com/), [Sherlock](https://www.sherlock.xyz/) or [CodeHawks](https://www.codehawks.com/)
 
 You'll find below my different results and reports.
 
 # Contact me
 - [Twitter](https://twitter.com/InfectedCrypto)
 - [Discord](https://discordapp.com/users/209246832675651585)
-- [Sherlock Aggregator](https://audits.sherlock.xyz/contests/225)
+- [Sherlock Aggregator Profile](https://audits.sherlock.xyz/contests/225)
 
 
 # Competitive Audits
