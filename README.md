@@ -6,7 +6,7 @@
 # About Infect3d
 Previously working as test & measurement engineer in telecommunications.
 Now a smart contract security researcher, my goal is to master both broad coverage and deep exploration of the codebase.
-With a specific focus on Solidity, I aim to cover all types of protocols.
+With a specific focus on Solidity, I aim to cover all types of protocols, even though I've recently decided to broaden my expertise with Solana, and probably other blockchains when the opportunity will show.
 However, you will see from my CV that I have an affinity for CDP, DEXes, Vaults and AMMs protocols as they highly rely on maths.
 
 I participate in contests on [Code4rena](https://code4rena.com/), [Sherlock](https://www.sherlock.xyz/) or [CodeHawks](https://www.codehawks.com/)
@@ -17,7 +17,7 @@ You'll find below my different results and reports.
 - [Twitter](https://twitter.com/InfectedCrypto)
 - [Personal blog](https://another-infected-blog.vercel.app/)
 - [Discord](https://discordapp.com/users/209246832675651585)
-- [Sherlock Aggregator Profile](https://audits.sherlock.xyz/contests/225)
+- [Sherlock Aggregator Profile](https://audits.sherlock.xyz/watson/infect3d)
 
 
 # Competitive Audits
