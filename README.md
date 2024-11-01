@@ -5,8 +5,8 @@
 
 # About Infect3d
 Previously working as test & measurement engineer in telecommunications.  
-Now a smart contract security researcher, I aim to achieve both broad coverage and deep understanding of various codebases.
-While I have a specific focus on Solidity, I've recently decided to broaden my expertise to include Solana, and possibly other blockchains as opportunities arise.
+Now a smart contract security researcher, I aim to achieve both broad coverage and deep understanding of various codebases.  
+While I have a specific focus on Solidity, I've recently decided to broaden my expertise to include Solana, and possibly other blockchains as opportunities arise.  
 I can cover all types of protocols, however, you will see from my CV that I have a particular affinity for CDP, DEXes, Vaults and AMMs protocols or anything that incorporate interesting financial aspects.
 
 I participate in contests on [Code4rena](https://code4rena.com/), [Sherlock](https://www.sherlock.xyz/) or [CodeHawks](https://www.codehawks.com/)
