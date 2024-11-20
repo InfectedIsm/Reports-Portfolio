@@ -21,11 +21,11 @@ You'll find below my different results and reports.
 
 
 # Competitive Audits
-| Contest																				| Date		| Description 																	| Where 	| Findings				| Mention						| Report																											|
+| Contest																				| Date		| Description 																	| Where 	| Findings				| Mention						| Report														|
 | ------------------------------------------------------------------------------------	| --------- |--------------------------------------------------------------------------		| --------	| -----------------		| ---------------------------	| ----------------------------------------------------------	|
-| [Orderly (Solana Vault)](https://audits.sherlock.xyz/contests/524?filter=results)		| Oct-24	| Orderly bridge using **LayerZero V2** to allow multi-chain orderbook			| Sherlock	| Judging				|								| [Not public yet](Contests/In_Progress.md)   					|
-| [Predict.loan](https://audits.sherlock.xyz/contests/561?filter=results)				| Oct-24	| A **loan market** to borrow funds against **prediction market tokens**		| Sherlock	| M:1					| 🏅 5th place					| [Link](Contests/2024/2024-10-Predict_loan.md)   					|
-| [Wildcat V2](https://code4rena.com/audits/2024-08-the-wildcat-protocol)				| Sep-24	| Permisionned **CDP** for fixed-rate, **undercollateralised** credits			| C4		| M:4					| 🥈 2nd place					| [Link](Contests/2024/2024-09_Wildcat_Finance.md)   					|
+| [Orderly (Solana Vault)](https://audits.sherlock.xyz/contests/524?filter=results)		| Oct-24	| Orderly bridge using **LayerZero V2** to allow multi-chain orderbook			| Sherlock	| H:1					| 🏅 4th place					| [Not public yet](Contests/2024/2024-10-Orderly.md)   					|
+| [Predict.loan](https://audits.sherlock.xyz/contests/561?filter=results)				| Oct-24	| A **loan market** to borrow funds against **prediction market tokens**		| Sherlock	| M:1					| 🏅 5th place					| [Link](Contests/2024/2024-10-Predict_loan.md)   				|
+| [Wildcat V2](https://code4rena.com/audits/2024-08-the-wildcat-protocol)				| Sep-24	| Permisionned **CDP** for fixed-rate, **undercollateralised** credits			| C4		| M:4					| 🥈 2nd place					| [Link](Contests/2024/2024-09_Wildcat_Finance.md)  			|
 | [LoopFi](https://code4rena.com/audits/2024-07-loopfi#top)								| Aug-24	| Lending market to leverage on LRTs in order to boost returns					| C4		| Judging				|								| [Not public yet](Contests/In_Progress.md)   					|
 | [Zaros](https://codehawks.cyfrin.io/c/2024-07-zaros/results?t=report)					| Jul-24	| Perpetuals DEX powered by Boosted (Re)Staking Vaults							| CHawks	| H:2 M:1 L:3			|								| [Link](Contests/2024/2024-07_Zaros.md)   						|
 | [Size](https://code4rena.com/audits/2024-06-size)										| Jun-24	| credit marketplace with unified liquidity across maturities					| C4		| H:1 M:2				|								| [Link](Contests/2024/2024-06_Size.md)  			 			|
