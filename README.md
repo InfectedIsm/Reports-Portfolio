@@ -13,6 +13,10 @@ I participate in contests on [Code4rena](https://code4rena.com/), [Sherlock](htt
 
 You'll find below my different results and reports.
 
+# Achievements in Audit Contests
+- Landed 2nd on [Wildcat Finance on C4](https://code4rena.com/audits/2024-08-the-wildcat-protocol) 🥈
+- Solo Medium issue on Ditto ([see M-01](Contests/2024/2024-03_DittoETH.md)) 🎯
+
 # Contact me
 - [Twitter](https://twitter.com/InfectedCrypto)
 - [Personal blog](https://another-infected-blog.vercel.app/)
@@ -21,9 +25,10 @@ You'll find below my different results and reports.
 
 
 # Competitive Audits
+_only rewarded findings are listed in these reports, aknowledged risk aren't always shown_
 | Contest																				| Date		| Description 																	| Where 	| Findings				| Mention						| Report														|
 | ------------------------------------------------------------------------------------	| --------- |--------------------------------------------------------------------------		| --------	| -----------------		| ---------------------------	| ----------------------------------------------------------	|
-| [Orderly (Solana Vault)](https://audits.sherlock.xyz/contests/524?filter=results)		| Oct-24	| Orderly bridge using **LayerZero V2** to allow multi-chain orderbook			| Sherlock	| H:1					| 🏅 4th place					| [Not public yet](Contests/2024/2024-10-Orderly.md)   					|
+| [Orderly (Solana Vault)](https://audits.sherlock.xyz/contests/524?filter=results)		| Oct-24	| Orderly bridge using **LayerZero V2** to allow multi-chain orderbook			| Sherlock	| H:1					| 🏅 4th place					| [Link](Contests/2024/2024-10_Orderly_Solana_Vault.md)|
 | [Predict.loan](https://audits.sherlock.xyz/contests/561?filter=results)				| Oct-24	| A **loan market** to borrow funds against **prediction market tokens**		| Sherlock	| M:1					| 🏅 5th place					| [Link](Contests/2024/2024-10-Predict_loan.md)   				|
 | [Wildcat V2](https://code4rena.com/audits/2024-08-the-wildcat-protocol)				| Sep-24	| Permisionned **CDP** for fixed-rate, **undercollateralised** credits			| C4		| M:4					| 🥈 2nd place					| [Link](Contests/2024/2024-09_Wildcat_Finance.md)  			|
 | [LoopFi](https://code4rena.com/audits/2024-07-loopfi#top)								| Aug-24	| Lending market to leverage on LRTs in order to boost returns					| C4		| Judging				|								| [Not public yet](Contests/In_Progress.md)   					|
