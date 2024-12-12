@@ -16,12 +16,13 @@ If a proposal do not properly follow these rules, anyone can dispute the proposa
 For each invalid short, a penalty is applied to the redeemer (and awarded to the disputer)
 The penalty calculation is based on the CR difference between the disputeCR (proof) and the the currentProposal.CR (lowest invalid CR) :
 
-
-1) $$
+1)
+$$
 \text{penaltyPct} = \min \left( \max \left( \text{callerFeePct}, \frac{\text{currentProposal.CR} - \text{disputeCR}}{\text{currentProposal.CR}} \right), 0.33 \, \text{ether} \right);
 $$	
 
-2) $$
+2.
+$$
 \text{penaltyAmt} = \text{incorrectErcDebt} \cdot \text{penaltyPct};
 $$
 
