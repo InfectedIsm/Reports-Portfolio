@@ -353,7 +353,7 @@ Provide direct links to all referenced code in GitHub. Add screenshots, logs, or
 
 # 🔴 H01 - transfering a SR will close it, making it invalid for redemption
 
-## _this finding was aknowledged as protocol will use flashbots
+ _this finding was aknowledged as protocol will use flashbots_ 
 
 Ditto is a decentralized CDP protocol allowing users to get stablecoins (called dUSD here) against LST (Liquid Staking Tokens like stETH or rETH) collateral. 
 Depositing LST grant dETH, a shares representing the value deposited in ETH.

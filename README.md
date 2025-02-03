@@ -22,7 +22,7 @@ You'll find below my different results and reports.
 - [Personal blog](https://another-infected-blog.vercel.app/)
 - [Discord](https://discordapp.com/users/209246832675651585)
 - [Sherlock Aggregator Profile](https://audits.sherlock.xyz/watson/infect3d)
-
+- You can also contact me at: infect3d@proton.me
 
 # Competitive Audits
 _only rewarded findings are listed in these reports, aknowledged risk aren't always shown_
