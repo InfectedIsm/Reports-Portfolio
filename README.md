@@ -14,6 +14,7 @@ I participate in contests on [Code4rena](https://code4rena.com/), [Sherlock](htt
 You'll find below my different results and reports.
 
 # Achievements in Audit Contests
+- Reported +50 High/Medium severity vulnerabilities across +20 DeFi protocols
 - Landed 2nd on [Wildcat Finance on C4](https://code4rena.com/audits/2024-08-the-wildcat-protocol) 🥈
 - Landed 2nd on [Kinetiq](https://code4rena.com/audits/2024-08-the-wildcat-protocol) 🥈
 - Solo Medium issue on Ditto ([see M-01](Contests/2024/2024-03_DittoETH.md)) 🎯
