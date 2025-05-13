@@ -4,17 +4,18 @@
 - [Competitive Audits](#competitive-audits)
 
 # About Infect3d
-Previously working as test & measurement engineer in telecommunications.  
-Now a smart contract security researcher, I aim to achieve both broad coverage and deep understanding of various codebases.  
-While I have a specific focus on Solidity, I've recently decided to broaden my expertise to include Solana, and possibly other blockchains as opportunities arise.  
-I can cover all types of protocols, however, you will see from my CV that I have a particular affinity for CDP, DEXes, Vaults and AMMs protocols or anything that incorporate interesting financial aspects.
+Previously working as Test & Measurement Engineer in telecommunications.  
+Now a Web3 Independent Security Researcher with multiple top-10, some top-5 and a top-2 ranking, I aim to achieve both broad coverage and deep understanding of various codebases.  
+While I had a specific focus on Solidity, I've recently broadened my expertise to include Solana and other blockchains as opportunities arise.  
+I can cover all types of protocols, however, I have a particular affinity for CDP, DEX, Vaults and AMMs protocols or anything that incorporate interesting financial aspects
 
-I participate in contests on [Code4rena](https://code4rena.com/), [Sherlock](https://www.sherlock.xyz/) or [CodeHawks](https://www.codehawks.com/)
+I participate in contests on [Code4rena](https://code4rena.com/), [Sherlock](https://www.sherlock.xyz/), [Cantina](https://cantina.xyz/solutions/competitions) and [CodeHawks](https://www.codehawks.com/)
 
 You'll find below my different results and reports.
 
 # Achievements in Audit Contests
 - Landed 2nd on [Wildcat Finance on C4](https://code4rena.com/audits/2024-08-the-wildcat-protocol) 🥈
+- Landed 2nd on [Kinetiq](https://code4rena.com/audits/2024-08-the-wildcat-protocol) 🥈
 - Solo Medium issue on Ditto ([see M-01](Contests/2024/2024-03_DittoETH.md)) 🎯
 
 # Contact me
@@ -28,7 +29,7 @@ You'll find below my different results and reports.
 _only rewarded findings are listed in these reports, aknowledged risk aren't always shown_
 | Contest																				| Date		| Description 																	| Where 	| Findings				| Mention						| Report														|
 | ------------------------------------------------------------------------------------	| --------- |--------------------------------------------------------------------------		| --------	| -----------------		| ---------------------------	| ----------------------------------------------------------	|
-| [Gamma - GMX Vault](https://codehawks.cyfrin.io/c/2025-02-gamma)						| Feb-25	| Perpetual Vault Protocol  with leveraged position built upon GMX				| CodeHawks	| Judging				| 								| [In Progress](Contests/In_Progress.md)|
+| [Kinetiq](https://code4rena.com/audits/2025-04-kinetiq)					        	| Mar-25	| HYPE Liquid staking on Hyperliquid                             				| C4    	| H:1 M:2				| 🥈 2nd place & Hunter bonus	| [In Progress](Contests/2025/2025-04-Kinetiq.md)|
 | [Lambo.win](https://code4rena.com/audits/2024-12-lambowin)							| Dec-24	| User friendly ETH Launchpad with minimal fund investment						| C4		| H:3 M:3				| 🎯 3/4 High & ~50% coverage	| [Link](Contests/2024/2024-12-LamboWin.md)|
 | [Orderly (Solana Vault)](https://audits.sherlock.xyz/contests/524?filter=results)		| Oct-24	| Orderly bridge using **LayerZero V2** to allow multi-chain orderbook			| Sherlock	| H:1					| 🏅 4th place					| [Link](Contests/2024/2024-10_Orderly_Solana_Vault.md)|
 | [Predict.loan](https://audits.sherlock.xyz/contests/561?filter=results)				| Oct-24	| A **loan market** to borrow funds against **prediction market tokens**		| Sherlock	| M:1					| 🏅 5th place					| [Link](Contests/2024/2024-10-Predict_loan.md)   				|

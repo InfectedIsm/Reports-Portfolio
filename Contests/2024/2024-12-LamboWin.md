@@ -1,7 +1,6 @@
 # Lambowin - Findings Report
 
 # Table of contents
-- ## [Contest Summary](#contest-summary)
 - ## [Results Summary](#results-summary)
 - ## High Risk Findings
     -  [H-01. `createLaunchPad` can be DoS'd by front-running the UniswapV2 pair deployment](#H-01)
