@@ -245,7 +245,7 @@ MED
 LOW
 =============================================
 
-# 🔵🔄[L-01] `RewardCoordinator` Merkle Tree implementation is missing leaves-nodes domain separator and tree depth check
+# 🔵[L-01] `RewardCoordinator` Merkle Tree implementation is missing leaves-nodes domain separator and tree depth check
 
 ## Summary  
 The Merkle tree implementation in the [`RewardsCoordinator`](https://github.com/Layr-Labs/eigenlayer-contracts/blob/2e6fb35517775f4dff8df4d287cefa3bca17a4d9/src/contracts/core/RewardsCoordinator.sol#L507-L507) contract and [`Merkle`](https://github.com/Layr-Labs/eigenlayer-contracts/blob/2e6fb35517775f4dff8df4d287cefa3bca17a4d9/src/contracts/libraries/Merkle.sol#L51-L51) library lacks proper domain separation between internal nodes and leaf nodes, and fails to enforce a maximum tree depth, which could allow attackers to forge valid proofs through second preimage attacks.  
@@ -282,64 +282,3 @@ A typical exploitation path would involve:
 Implement leaves-nodes domain separator and tree depth check to prevent second pre-image attack.  
 For domain separation, simply use add a `LEAF_HASH` and `NODE_HASH` when during the hashing process.  
 For depth, this could be done by allowing Reward Updaters to indicate the tree depth alongside the `distributionRoot`
-
-Template
-=============================================
-# 🔵🟡🔴[X-00] TITLE
-
-## Summary
-*A short summary of the issue, keep it brief.*
-
-## Finding Description
-*A more detailed explanation of the issue. Poorly written or incorrect findings may result in rejection and a decrease of reputation score.*
-*Describe which security guarantees it breaks and how it breaks them. If this bug does not automatically happen, showcase how a malicious input would propagate through the system to the part of the code where the issue occurs.*
-
-## Impact Explanation
-*Elaborate on why you've chosen a particular impact assessment.*
-
-## Likelihood Explanation
-*Explain how likely this is to occur and why.*
-
-## Proof of Concept (if required)
-*If you have not included code examples in your description, here would be a good place to do so.*
-
-## Recommendation
-*How can the issue be fixed or solved. Preferably, you can also add a snippet of the fixed code here.*
-
-
-
-___________________________________________________________________________________________
- 
- 
-INVALID ?
-=============================================
-
-# 🔵❌[L-01] Storage gaps are inconsistent in multiple Storage contracts
-
-## Summary
-https://docs.openzeppelin.com/contracts/4.x/upgradeable#storage_gaps
-https://docs.soliditylang.org/en/latest/contracts.html#constant-and-immutable-state-variables
-Eigen Layer uses Open Zeppelin's storage gaps method to ensure proper storage slots alignment during upgrades if a new state variable is added. The chosen gap value is `50` slots (like OZ), value decreasing each time a new storage state variable is added.
-Immutable and constant variables are not stored in storage, only regular state variables are, so only these state variable should be counted in.
-
-- `RewardsCoordinatorStorage.sol` has 18 storage slots used, but its gap is `35`, while it should have been `32`
-	- *❌ that's because there are 4 variables (address, uint32, 32, 16) taking only 1 slot*
-- `StrategyManagerStorage.sol` has 16 storage slots used, but its gap is `36` while it should have been `34`
-	- *❌ wrong too
-
-## Finding Description
-*A more detailed explanation of the issue. Poorly written or incorrect findings may result in rejection and a decrease of reputation score.*
-*Describe which security guarantees it breaks and how it breaks them. If this bug does not automatically happen, showcase how a malicious input would propagate through the system to the part of the code where the issue occurs.*
-
-## Impact Explanation
-*Elaborate on why you've chosen a particular impact assessment.*
-
-## Likelihood Explanation
-*Explain how likely this is to occur and why.*
-
-## Recommendation
-*How can the issue be fixed or solved. Preferably, you can also add a snippet of the fixed code here.*
-
-
-___________________________________________________________________________________________________
- 
